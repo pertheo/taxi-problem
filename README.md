@@ -1,4 +1,4 @@
-#Program with Q-Learning algorithm that solves the Taxi problem.
+# Program with Q-Learning algorithm that solves the Taxi problem.
 
 The program consists of 3 parts:
 1.	Training program. It accepts algorithm parameters, display some quality metric (e.g. episode reward) during training and save the trained model.
