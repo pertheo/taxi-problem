@@ -27,7 +27,7 @@ def test(q_table,city):
             break
     if done == False:
         print("Result: TAXI FAILED TO DELIVER PASSENGER TO THE DESTINATION")
-def main():
+def main_test():
      run,ep=1,1
      agent = gym.make("Taxi-v3").env
      q_table=joblib.load("Qtable.joblib")
@@ -37,5 +37,3 @@ def main():
          test(q_table,agent)
          ep+=1
          run=int(input("Do you want to run another episode? [no-0/yes-1]\n"))
-         
-main()
