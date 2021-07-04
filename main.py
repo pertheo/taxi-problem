@@ -1,5 +1,5 @@
-from earin_ex8.training import main_train
-from earin_ex8.visualization import main_test
+from library.training import main_train
+from library.visualization import main_test
 
 def main():
     main_train()
