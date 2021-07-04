@@ -6,4 +6,5 @@ The program consists of 3 parts:
 3.	Trained model with joblib extension (created first time after running training program).
 
 Written in Python3+
+
 Modules used: gym, numpy, random, joblib, time
